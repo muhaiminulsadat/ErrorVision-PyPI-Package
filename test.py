@@ -1,1 +1,5 @@
-from ErrorVision.Logger import logger
+from ErrorVision.core import enable
+
+enable()
+
+print(x)
