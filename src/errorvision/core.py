@@ -13,7 +13,6 @@ ERROR_HINTS = {
     "ValueError": "You passed an invalid value to a function.",
 }
 
-
 def _exception_handler(exc_type, exc_value, tb):
     tb_info = traceback.extract_tb(tb)
     last_call = tb_info[-1]
