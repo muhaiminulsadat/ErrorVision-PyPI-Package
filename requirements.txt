@@ -1,4 +1,4 @@
 colorama==0.4.6
-# openai
+# openai == 2.14.0
 # groq==0.30.0
 dotenv
