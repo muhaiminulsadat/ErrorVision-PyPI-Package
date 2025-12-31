@@ -8,10 +8,10 @@ __version__ = "0.0.1"
 REPO_NAME = "ErrorVision-PyPI-Package"
 AUTHOR_USER_NAME = "muhaiminulsadat"
 AUTHOR_EMAIL = "muhaiminulsadat@gmail.com"
-SRC_REPO = "errorvision"
+SRC_REPO = "ErrorVision"
 
 setuptools.setup(
-    name=SRC_REPO,
+    name="errorvision",
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
