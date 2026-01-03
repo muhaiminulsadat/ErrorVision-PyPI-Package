@@ -17,7 +17,6 @@ setuptools.setup(
     author_email=AUTHOR_EMAIL,
     description="A small python package",
     long_description=long_description,
-    # This was the main cause of the error:
     long_description_content_type="text/markdown", 
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
@@ -25,7 +24,6 @@ setuptools.setup(
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    # Adding a classifier helps PyPI categorize your package
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
